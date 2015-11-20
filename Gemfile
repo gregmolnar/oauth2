@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'rdoc'
-
+gem 'rack', github: 'rack/rack'
 group :development do
   gem 'pry'
 end
